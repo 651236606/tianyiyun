@@ -1,0 +1,16 @@
+﻿后台提示升级请直接忽略！
+后台提示升级请直接忽略！
+后台提示升级请直接忽略！
+
+1，确认空间支持rewrite组件。
+2，按照 伪静态rewrite 目录下的说明文档操作。
+3，后台设置浏览模式为 rewrite伪静态 。
+
+iis7.x   以上使用 web.config
+
+apache下使用 .htaccess  
+
+nginx 下使用 web.conf
+
+(使用vps或者服务器的可以在你的主机的conf里 用 include xxxxx.conf   也就是包含下伪静态规则文件
+如果用的是虚拟主机版的nginx 就找你的主机商给你添加规则就行，你把规则发给他。)

@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+
+RewriteRule ^(.*)yunimg/([0-9]+)$ api/img.php?v=$2
+RewriteRule ^(.*)yunmp4/([0-9]+)$ api/index.php?v=$2
+RewriteRule ^(.*)yunmp4/([0-9]+).mp4$ api/index.php?v=$2
+RewriteRule ^(.*)yunfile/([0-9]+)$ api/index.php?v=$2
+RewriteRule ^(.*)share/([0-9a-zA-Z]{8})$ share.php?v=$2
+
+</IfModule>

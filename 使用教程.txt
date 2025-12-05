@@ -1,0 +1,4 @@
+﻿如果系统是linux，install 和 save 文件夹都改成可读写
+访问http://xxx.com/install/
+进行安装.后面的看下面的地址~
+要求环境：Mysql 5.5  php7.1以下 
